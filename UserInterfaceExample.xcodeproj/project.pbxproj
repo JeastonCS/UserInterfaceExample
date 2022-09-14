@@ -15,7 +15,6 @@
 		B689AE742500836D005FE8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B689AE722500836D005FE8BE /* Main.storyboard */; };
 		B689AE7625008373005FE8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B689AE7525008373005FE8BE /* Assets.xcassets */; };
 		B689AE7925008373005FE8BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B689AE7725008373005FE8BE /* LaunchScreen.storyboard */; };
-		B689AE83250085CA005FE8BE /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B689AE82250085CA005FE8BE /* ImageModel.m */; };
 		B689AE8525013898005FE8BE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B689AE8425013898005FE8BE /* TableViewController.swift */; };
 		CC562C3D2585525D00F6FEA4 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC562C3C2585525D00F6FEA4 /* GameKit.framework */; };
 /* End PBXBuildFile section */
@@ -33,7 +32,6 @@
 		B689AE7A25008373005FE8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B689AE80250085C9005FE8BE /* UserInterfaceExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UserInterfaceExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		B689AE81250085CA005FE8BE /* ImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
-		B689AE82250085CA005FE8BE /* ImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
 		B689AE8425013898005FE8BE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		CC562C3C2585525D00F6FEA4 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -77,7 +75,6 @@
 				B632222E250190A40064DEB5 /* CollectionViewController.swift */,
 				B6322230250191CF0064DEB5 /* CollectionViewCell.swift */,
 				B689AE81250085CA005FE8BE /* ImageModel.h */,
-				B689AE82250085CA005FE8BE /* ImageModel.m */,
 				B689AE722500836D005FE8BE /* Main.storyboard */,
 				B689AE7525008373005FE8BE /* Assets.xcassets */,
 				B689AE7725008373005FE8BE /* LaunchScreen.storyboard */,
@@ -173,7 +170,6 @@
 				B6322231250191CF0064DEB5 /* CollectionViewCell.swift in Sources */,
 				B689AE6F2500836D005FE8BE /* SceneDelegate.swift in Sources */,
 				B689AE8525013898005FE8BE /* TableViewController.swift in Sources */,
-				B689AE83250085CA005FE8BE /* ImageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
